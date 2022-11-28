@@ -1,10 +1,10 @@
 # Toy Problem 
-#### Solves a number of questions using JS, 28/10/2022}}
+#### Solves the ask user for score and returns the corresponding grade .  using JS , 28/10/2022}
 #### By **Caleb Kavindu Keli**
 ## Description
-This is a Moringa school assignment that solves three questions using javascript
+This is a Moringa school assignment that solves the grade of score that is inputed  using Javascript.
 ## Known Bugs
-Currently the website has no known bugs after testing . 
+Currently the code  has no known bugs after testing . 
 ## Technologies Used
 The assignment has been coded purely by the use of Javascript 
 ## Support and contact details
