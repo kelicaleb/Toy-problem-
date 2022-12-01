@@ -3,14 +3,14 @@ const Enter = (grade)=>{
     /*Inside the arrow Function a for loop was created for the range*/
         for(grade; grade<=100;){
     /*if statements were used for different ranges*/
-            if(grade >= 79){
+            if(grade > 79){
                 return "A"
             }
-            else if(grade >= 60){
+            else if(grade >= 60 || grade == 79){
                 return "B"
             }
-            else if(grade >= 49){
-                return "c"
+            else if(grade > 49){
+                return "C"
             }
             else if(grade >= 40){
                 return "D"
@@ -21,5 +21,5 @@ const Enter = (grade)=>{
         }
     }
     /* called the function*/
-    console.log(Enter(41))
+    console.log(Enter(39))
     
