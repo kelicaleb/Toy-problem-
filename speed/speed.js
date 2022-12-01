@@ -1,5 +1,6 @@
+let form = document.querySelectorAll("#speed")
 /* Called the index.html form*/
-const form = document.querySelector("#speed");
+
 form.addEventListener("submit", (button)=>{
 /*allowed the data to be submit to the js form*/
     button.preventDefault()
@@ -9,8 +10,10 @@ form.addEventListener("submit", (button)=>{
         alert("OK")
     }
     else if(jsform.get("limit") > 70){
-        let limit = (jsform.get("limit")-70)/5;
-        console.log(limit)
-        alert(`Points: ${limit}`)
+        let dermitPoint = (jsform.get("limit")-70)/5;
+        alert(`Points: ${dermitPoint}`)
+        if(dermitPoint > 12){
+            alert(`Points:${dermitPoint} your licence is susupended`)
+        }
     }
 })

@@ -1,5 +1,5 @@
 /* Created an arrow function called Enter*/
-const Enter = (grade)=>{
+function Enter(grade){
     /*Inside the arrow Function a for loop was created for the range*/
         for(grade; grade<=100;){
     /*if statements were used for different ranges*/

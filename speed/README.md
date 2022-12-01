@@ -2,7 +2,9 @@
 #### Solves the speed limits and gives a dermit point using JS ,28/10/2022}}
 #### By **Caleb Kavindu Keli**
 ## Description
-This is a Moringa school assignment that solves spped limit question using javascript
+This is a Moringa school assignment that solves speed limit question using javascript.
+This is gotten through dermit points .
+The dermit points is equated through speed above 70km/h minus the 70 divided by 5.
 ## Known Bugs
 Currently the code  has no known bugs after testing . 
 ## Technologies Used
